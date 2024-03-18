@@ -1,10 +1,11 @@
 import "./App.css";
+import { Container, Title } from "./components/styles/Container.style";
 
 function App() {
   return (
-    <>
-      <h1>Hello Vite + React!</h1>
-    </>
+    <Container>
+      <Title>Hello Vite + React!</Title>
+    </Container>
   );
 }
 
